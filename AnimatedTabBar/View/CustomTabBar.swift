@@ -90,7 +90,7 @@ struct TabBarButton: View{
 				}, label: {
 					Image(systemName: "\(image)\(selectedTab == image ? ".fill":"")")
 						.font(.system(size: 25, weight: .semibold))
-						.foregroundColor(Color(.systemIndigo))
+						.foregroundColor(Color(.black))
 						//Lifting View
 						//If it is selected
 						.offset(y:selectedTab == image ? -10:0)

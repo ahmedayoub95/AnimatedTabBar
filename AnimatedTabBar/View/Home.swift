@@ -11,7 +11,7 @@ struct Home: View {
 	@State var selectedTab = "house"
     var body: some View {
 		ZStack(alignment: .bottom, content: {
-			Color(.systemIndigo)
+			Color(.black)
 				.ignoresSafeArea()
 			
 			//Custom Tab Bar
